@@ -10,17 +10,12 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar p-3" style={{ backgroundColor: "#c3e3ff" }}>
-                <Link
-                    className="navbar-brand d-flex flex-row justify-content-center align-items-center"
-                    href="#"
-                >
                     <img src="/images/school_logo.jpeg" width={120} height={120} />
-                    <div className="ms-3">
-                        <h3>S.E.SOCIETY&#39;S</h3>
+                    <div className="mx-auto d-flex flex-column align-items-center" style={{marginLeft : "auto"}}>
                         <h1>S.N.B.P. School & Junior College</h1>
+                        <h3>S.E.SOCIETY&#39;S</h3>
                         <h4>Yerwada, Pune&#8210;06</h4>
                     </div>
-                </Link>
             </nav>
 
             <nav className="nav nav-pills nav-justified p-3">
