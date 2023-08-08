@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
     env: {
-        BASE_URL: 'http://localhost:3006',
+        BASE_URL: 'https://snbp-api.onrender.com',
     },
   }
